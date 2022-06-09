@@ -287,6 +287,94 @@ background-repeat: no-repeat;
 grid-area: d;
 }
 
+.work2-card h1 {
+  width: 337px;
+height: 81px;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+padding-top: 60px;
+}
+
+.work2-card p {
+  width: 337px;
+height: 72px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 80px;
+}
+
+.work2-card > ul {
+  display: flex;
+  margin-top: 90px;
+}
+
+
+.work2-card .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.work2-card .Boot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.work2-card .Ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
  .work-card > button {
   display: flex;
   flex-direction: column;
@@ -310,6 +398,215 @@ grid-area: d;
  padding-top: 84px;
  background-repeat: no-repeat;
  grid-area: e;
+}
+
+.health-card h1 {
+  width: 337px;
+height: 81px;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+padding-top: 60px;
+}
+
+.health-card p {
+  width: 337px;
+height: 72px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 80px;
+}
+
+.health-card > ul {
+  display: flex;
+  margin-top: 90px;
+}
+
+
+.health-card .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.health-card .Boot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.health-card .Ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+
+
+.web-card {
+  height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/web.png);
+  padding: 0 16px;
+  padding-top: 84px;
+  background-repeat: no-repeat;
+  grid-area: c;
+}
+  .web-card h1 {
+    width: 337px;
+  height: 81px;
+  
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  padding-top: 60px;
+  }
+  
+  .web-card p {
+    width: 337px;
+  height: 72px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 80px;
+  }
+  
+  .web-card > ul {
+    display: flex;
+    margin-top: 90px;
+  }
+  
+  
+  .web-card .html {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 56px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  
+  .web-card .Boot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  
+  .web-card .Ruby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 61px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  
+  
+}
+
+.web2-card {
+  height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/web.png);
+  padding: 0 16px;
+  padding-top: 84px;
+  background-repeat: no-repeat;
+  grid-area: f;
 }
 
 .health2-card {
@@ -432,6 +729,92 @@ padding-top: 80px;
   background-repeat: no-repeat;
   grid-area: c;
 }
+  .web-card h1 {
+    width: 337px;
+  height: 81px;
+  
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  padding-top: 60px;
+  }
+  
+  .web-card p {
+    width: 337px;
+  height: 72px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 80px;
+  }
+  
+  
+  
+  
+  .web-card .html {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 56px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  
+  .web-card .Boot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  
+  .web-card .Ruby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 61px;
+    height: 40px;
+    border: 1px solid #8993a4;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    margin: 0 12px 0 0;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.24);
+  
+  
+}
 
 .web2-card {
   height: 386px;
@@ -446,4 +829,92 @@ padding-top: 80px;
   padding-top: 84px;
   background-repeat: no-repeat;
   grid-area: f;
+}
+
+.web2-card h1 {
+  width: 337px;
+height: 81px;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+padding-top: 60px;
+}
+
+.web2-card p {
+  width: 337px;
+height: 72px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 80px;
+}
+
+.web2-card > ul {
+  display: flex;
+  margin-top: 90px;
+}
+
+
+.web2-card .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.web2-card .Boot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.web2-card .Ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
 }
