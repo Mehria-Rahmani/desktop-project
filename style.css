@@ -231,7 +231,7 @@ border: 1px solid #8993A4;
     border: 1px solid #8993A4;
   }
 
-.button {
+.project-button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -240,10 +240,12 @@ border: 1px solid #8993A4;
     width: 131px;
     height: 48px;
     background: #ff6b00;
-    margin-left: 98px;
+    margin-left: 0px;
     margin-right: 98px;
     border-color: #ff6b00;
     color: #fff;
+    margin-top: 240px;
+    padding-left: 0;
   } 
 
 .card {
