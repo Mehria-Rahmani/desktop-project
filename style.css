@@ -48,8 +48,8 @@ li {
 }
 
 .container {
-    padding-left: 143px;
-    padding-right: px;
+    margin-left: 143px;
+    margin-right: 73px;
     padding-top: 264px;
     margin-bottom: 446px;
     /* margin-top: 20%; */
@@ -58,7 +58,7 @@ li {
 .hero-wrapper {
     background-image: url(assets/Illustration-header.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: right;
     background-position: 100%;
     background-attachment: fixed;
     height: 100vh;
@@ -85,8 +85,6 @@ li {
     line-height: 32px;
    display: flex;
    align-items: center;
-
-
 }
   
 .job-description {
@@ -100,20 +98,182 @@ li {
     height: 123px;
 }
 
-.icon ul {
+.icon {
+    margin-top: 351px;
+    margin-bottom: 499px;
+    margin-left: 36px;
+    position: absolute;
+    top: 50px;
+}
+
+.recent-works {
+    color: #1c1a19;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    padding: 120px 24px 120px 24px;
+    grid-template-columns: 327px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.recent-work {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}  
+
+.recent-works h3 {
+    width: 315px;
+    height: 52px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
     display: flex;
-    flex-direction: column;
-    justify-content: left;
     align-items: left;
-    margin: 23px 0;
+    color: #091E42;
+    position: absolute;
+    
+    
+  }
+  
+.recent-works img {
+    width: 684px;
+    height: 448px;
+   margin-top: 50px;
+   position: absolute;
+    left: 20px
+
+  }
+
+  .multi {
+      display: flex;
+      align-items: right;
+  }
+
+.recent-works h4:not(.title) {
+  width: 448px;
+  height: 48px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+color: #091E42;
+  }  
+
+  .recent-works p {
+    width: 448px;
+    height: 140px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091E42;
+  }  
+
+.tech-used li {
+    float: left;
+  }
+
+.recent-works .css {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+width: 49px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #8993A4;
+ }  
+
+ .recent-works .HTML {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 56px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #8993A4;
+  }
+
+  .recent-works .boots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 95px;
+    height: 40px;
+ background: #FFFFFF;
+    border: 1px solid #8993A4;
+  }  
+
+  .recent-works .ruby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 61px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #8993A4;
+  }
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 131px;
+    height: 48px;
+    background: #ff6b00;
+    margin-left: 98px;
+    margin-right: 98px;
+    border-color: #ff6b00;
+    color: #fff;
+  } 
+
+ .work-card {
+     height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/Img\ Placeholder\ \(1\).png);
+  padding: 0 16px;
+  padding-top: 84px;
+  background-repeat: no-repeat;
+ }
+
+ .work-card > button {
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  height: 58px;
+  left: 0px;
+  bottom: 0;
 }
 
-.icon li {
-  padding-left: 0px;
-  
+.health-card {
+    height: 386px;
+ background:
+   linear-gradient(
+     180.45deg,
+     rgba(38, 38, 38, 0) 0.75%,
+     rgba(38, 38, 38, 0.9) 61.94%
+   ),
+   url(assets/Img\ health.png);
+ padding: 0 16px;
+ padding-top: 84px;
+ background-repeat: no-repeat;
 }
 
-
- 
-
-  
