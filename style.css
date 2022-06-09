@@ -111,10 +111,11 @@ li {
     background-color: white;
     display: grid;
     justify-content: center;
-    padding: 120px 24px 120px 24px;
+    padding: 100px 24px 120px 150px;
     grid-template-columns: 327px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 230px;
   }
 
 .recent-work {
@@ -134,23 +135,25 @@ li {
     display: flex;
     align-items: left;
     color: #091E42;
-    position: absolute;
-    
+  
     
   }
   
 .recent-works img {
     width: 684px;
     height: 448px;
-   margin-top: 50px;
+   margin-top: 150px;
+  margin-left: 140px;
    position: absolute;
     left: 20px
+
 
   }
 
   .multi {
       display: flex;
       align-items: right;
+      padding-top: 200px;
   }
 
 .recent-works h4:not(.title) {
@@ -164,6 +167,7 @@ li {
   display: flex;
   align-items: center;
 color: #091E42;
+padding-top: 180px;
   }  
 
   .recent-works p {
@@ -175,6 +179,8 @@ color: #091E42;
     font-size: 20px;
     line-height: 28px;
     color: #091E42;
+    padding-top: 30px;
+    margin-bottom: 50px;
   }  
 
 .tech-used li {
