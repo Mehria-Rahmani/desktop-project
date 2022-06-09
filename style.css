@@ -246,19 +246,46 @@ border: 1px solid #8993A4;
     color: #fff;
   } 
 
+.card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    background-color: #e5e5e5;
+    grid-template-rows: max-content;
+}
+
  .work-card {
      height: 386px;
-  background:
+     background:
     linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(assets/Img\ Placeholder\ \(1\).png);
+    url(assets/printing.png);
   padding: 0 16px;
   padding-top: 84px;
   background-repeat: no-repeat;
+  grid-area: a;
+
  }
+
+ .work2-card {
+  height: 386px;
+  background:
+ linear-gradient(
+ 180.45deg,
+ rgba(38, 38, 38, 0) 0.75%,
+ rgba(38, 38, 38, 0.9) 61.94%
+ ),
+ url(assets/printing.png);
+padding: 0 16px;
+padding-top: 84px;
+background-repeat: no-repeat;
+grid-area: d;
+}
 
  .work-card > button {
   display: flex;
@@ -267,6 +294,7 @@ border: 1px solid #8993A4;
   height: 58px;
   left: 0px;
   bottom: 0;
+
 }
 
 .health-card {
@@ -281,5 +309,141 @@ border: 1px solid #8993A4;
  padding: 0 16px;
  padding-top: 84px;
  background-repeat: no-repeat;
+ grid-area: e;
 }
 
+.health2-card {
+  height: 386px;
+ background-image:
+   linear-gradient(
+     180.45deg,
+     rgba(38, 38, 38, 0) 0.75%,
+     rgba(38, 38, 38, 0.9) 61.94%
+   ),
+   url(assets/Img\ health.png);
+ padding: 0 16px;
+ padding-top: 84px;
+ background-repeat: no-repeat;
+ grid-area: b;
+
+}
+
+.health2-card h1 {
+  width: 337px;
+height: 81px;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+padding-top: 60px;
+}
+
+.health2-card p {
+  width: 337px;
+height: 72px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 80px;
+}
+
+.health2-card > ul {
+  display: flex;
+  margin-top: 90px;
+}
+
+
+.health2-card .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.health2-card .Boot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.health2-card .Ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+
+
+.web-card {
+  height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/web.png);
+  padding: 0 16px;
+  padding-top: 84px;
+  background-repeat: no-repeat;
+  grid-area: c;
+}
+
+.web2-card {
+  height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/web.png);
+  padding: 0 16px;
+  padding-top: 84px;
+  background-repeat: no-repeat;
+  grid-area: f;
+}
