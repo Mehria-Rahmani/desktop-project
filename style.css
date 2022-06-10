@@ -1076,7 +1076,7 @@ color: #FFFFFF;
   background-color: #fff;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-areas: "a b";
 }
 
@@ -1105,7 +1105,33 @@ color: #FFFFFF;
 }
 
 form {
+  weidth: 684px;
+  height: 1px;
+  border: none;
   margin-top: 73px;
   grid-area: b;
 }
 
+ 
+form button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+} 
+
+form button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  margin-left: 98px;
+  margin-right: 98px;
+}
+
+
+form li {
+  margin-bottom: 24px;
+}
