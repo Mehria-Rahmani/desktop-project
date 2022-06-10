@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0 1px 0 0;
 }
 
 body {
@@ -1079,6 +1078,8 @@ color: #FFFFFF;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
    "a b";
+   margin-bottom: 200px;
+   padding-bottom: 350px;
 }
 
 .contact h1 {
@@ -1092,7 +1093,7 @@ color: #FFFFFF;
   text-align: left;
   color: #172b4d;
   margin-top: 12px;
-  margin-right: 60px;
+  margin-right: 0;
   grid-area: a;
   margin-bottom: 100px;
 }
@@ -1110,10 +1111,10 @@ form {
   weidth: 684px;
   height: 1px;
   border: none;
-  margin-top: 73px;
+
   grid-area: b;
   margin-top: 120px;
-  margin-right: 100px;;
+  /* margin-right: 100px; */
 }
 
  
@@ -1174,8 +1175,12 @@ form button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
+  margin-top: 200px;
   grid-area: b;
+  padding-top: 0;
+  position: absolute;
+  left: 540px;
+  background-color: #fff;
 }
 
 #twitter {
@@ -1184,7 +1189,7 @@ form button {
 
 footer {
   border-top: 1px solid #dfe1e6;
-  margin-top: 50px;
+  /* margin-top: 90px; */
 }
 
 #home-indicator {
@@ -1192,4 +1197,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 500px;
+  height: 1px;
+
 }
