@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    .skill-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 100px;
+    }
+}
+
+.skill-ul li {
+  margin-right: 206px;
+}

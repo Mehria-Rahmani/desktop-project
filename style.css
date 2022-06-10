@@ -135,8 +135,6 @@ li {
     display: flex;
     align-items: left;
     color: #091E42;
-  
-    
   }
   
 .recent-works img {
@@ -145,9 +143,7 @@ li {
    margin-top: 150px;
   margin-left: 140px;
    position: absolute;
-    left: 20px
-
-
+    left: 0px
   }
 
   .multi {
@@ -244,8 +240,9 @@ border: 1px solid #8993A4;
     margin-right: 98px;
     border-color: #ff6b00;
     color: #fff;
-    margin-top: 240px;
-    padding-left: 0;
+    margin-top: 450px;
+    position: absolute;
+    center: 10px;
   } 
 
 .card {
@@ -258,7 +255,7 @@ border: 1px solid #8993A4;
     grid-template-rows: max-content;
 }
 
- .work-card {
+.work-card {
      height: 386px;
      background:
     linear-gradient(
@@ -1006,23 +1003,29 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.skill-set {
-  padding-top: 100px;
+/* .skill-set {
+  padding-top: 10px;
   color: white;
   text-align: center;
   justify-content: center;
+  margin-left: 20px;
 }
 
 .skill-set ul {
-  display: grid;
-  grid-template-rows: 2erm 10erm 10erm;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* grid-template-columns: repeat(3,1fr);
   grid-template-areas: 
   "a b c";
+  column-gap: 2px; 
 }
 
 .skill-set li {
-  padding: 10px 0;
+  padding: 10px 60px;
+  column-width: 50px;
+ height: 500px;
+ 
 }
 
 .my-languages {
@@ -1033,7 +1036,6 @@ color: #FFFFFF;
   font-size: 32px;
   line-height: 44px;
   grid-area: a;
-  /* flex-direction: column; */
 }
 
 .my-frameworks {
@@ -1062,8 +1064,59 @@ color: #FFFFFF;
   font-size: 22px;
   line-height: 43px;
   list-style: none;
+} */
 
+.about-me .skill-set {
+  padding-top: 100px;
+  color: white;
+  text-align: center;
 }
+
+.skill-ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skill-set li {
+  padding: 10px 0;
+}
+
+.my-languages {
+  font-family: 'InaiMathi', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.my-frameworks {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.my-skills {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.skill-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+}
+
 
 .contact {
   background-color: #fff;
@@ -1170,7 +1223,7 @@ form button {
   grid-area: b;
   padding-top: 0;
   position: absolute;
-  left: 540px;
+  left: 700px;
   background-color: #fff;
  
 }
